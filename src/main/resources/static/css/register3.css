@@ -1,0 +1,114 @@
+body {
+	background-color: #f8f9fa;
+}
+
+.container {
+	margin-top: 80px !important;
+	max-width: 60% !important;
+}
+
+
+
+.card {
+	margin-top: 80px; padding : 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+}
+
+.btn-primary {
+	background-color: #007bff;
+	border: none;
+}
+
+.btn-primary:hover {
+	background-color: #0056b3;
+}
+
+.text-center {
+	margin-bottom: 20px;
+}
+
+.box-input {
+	position: relative;
+	margin-top: 30px;
+}
+
+.box-input__main {
+	width: 100%;
+	padding: 10px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+.box-input label {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	background: white;
+	padding: 0 5px;
+	color: #999;
+	cursor: text;
+	transition: 0.2s;
+}
+
+.box-input__main:focus+label, .box-input__main:not(:placeholder-shown)+label
+	{
+	top: -15px;
+	left: 10px;
+	color: #007bff;
+	font-size: 12px;
+}
+
+.box-input__main:not(:focus):placeholder-shown+label {
+	top: 10px;
+	left: 10px;
+	color: #999;
+	font-size: 16px;
+}
+
+.box-input__line {
+	height: 2px;
+	width: 0;
+	background: #007bff;
+	transition: width 0.2s;
+}
+
+.box-input__main:focus ~ .box-input__line {
+	width: 100%;
+}
+
+.box-input__err-validate {
+	color: red;
+	font-size: 12px;
+	display: none;
+}
+
+
+.box-input__main:invalid ~ .box-input__err-validate {
+	display: block;
+}
+
+.centered-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px; /* Khoảng cách giữa các phần tử */
+	margin-top: 20px; /* Khoảng cách trên cùng */
+}
+
+.centered-container p, .centered-container a {
+	margin: 0; /* Xóa margin mặc định */
+	font-size: 16px; /* Kích thước font chữ */
+	text-decoration: none; /* Xóa gạch chân liên kết */
+}
+
+.centered-container a {
+	color: red;
+}
+
+.centered-container a:hover {
+	text-decoration: underline; /* Gạch chân khi hover */
+}

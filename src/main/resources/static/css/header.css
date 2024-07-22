@@ -1,0 +1,118 @@
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+}
+
+.header {
+	background-color: #e30613;
+	padding: 10px 0;
+	color: #fff;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 0 20px;
+	display: flex;
+	margin: 0 auto;
+}
+
+.logo img {
+	height: 40px;
+}
+
+.search-bar {
+	max-width: 20%; display : flex;
+	align-items: center;
+	padding: 5px;
+	border-radius: 8px;
+	display: flex;
+}
+
+.search-bar select, .search-bar input, .search-bar button {
+	border: none;
+	padding: 10px;
+	margin: 0;
+	border-radius: 5px;
+}
+
+.search-bar select {
+	background-color: #ffffff;
+	color: #d50000;
+	flex: 1;
+}
+
+.search-bar input {
+	flex: 3;
+	margin-left: 5px;
+}
+
+.search-bar button {
+	background-color: #ffffff;
+	color: #d50000;
+	margin-left: 5px;
+	cursor: pointer;
+	flex: 1;
+}
+
+.search-bar button i {
+	margin-right: 5px;
+}
+
+.contact-info, .user-info {
+	display: flex;
+	align-items: center;
+}
+
+.contact-info a, .user-info a {
+	width: auto;
+	margin-left: 20px;
+	color: #fff;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	margin-left: 20px;
+}
+
+.contact-info a:hover, .user-info a:hover {
+	background-color: #d50000;
+}
+
+
+.store-link {
+	color: white;
+	padding: 5px 10px;
+	border-radius: 5px;
+	display: inline-flex;
+	align-items: center;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.store-link .bi-geo-alt-fill {
+	margin-right: 3px;
+	font-size: 1.5em;
+}
+
+.store-link .bi-telephone-fill {
+	margin-right: 5px;
+	font-size: 1.5em;
+}
+
+.store-link  .bi-box-fill {
+	margin-right: 5px;
+	font-size: 1.5em;
+}
+
+.store-link .bi-cart4 {
+	margin-right: 5px;
+	font-size: 1.5em;
+}
+
+.store-link .bi-person-circle {
+	margin-right: 5px;
+	font-size: 1.5em;
+}
